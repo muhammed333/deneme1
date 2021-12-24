@@ -1,0 +1,34 @@
+dialog {
+    width: 300px;
+    text-align: center;
+    border: 2px solid #ddd;
+    box-shadow: 0 4px 6px -1px rgb(0 0 0 / 0.1), 0 2px 4px -2px rgb(0 0 0 / 0.1);
+}
+/* iç ve dış boluklar verildi*/
+h2 {
+    padding: 2px;
+    margin: 2px;
+}
+
+button {
+
+    border: 1px solid #ddd;
+    width: 100px;
+    height: 25px;
+    background: #30333a;
+    color:white;
+    cursor: pointer;
+
+}
+
+input {
+    width: 225px;
+    height: 25px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 17px;
+}
+
+input:focus {
+    color: red;
+}
